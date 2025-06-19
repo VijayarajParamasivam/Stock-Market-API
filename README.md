@@ -62,10 +62,24 @@ A comprehensive API for real-time stock market data with predictive analytics.
     ```
   
 - **Login + API key:** `POST /user/login`
+    ```sh
+    curl -X POST "http://127.0.0.1:8001/token" -H "Content-Type:application/x-www-form-urlencoded" -d "username=[your-username]&password=[your-password]"
+    ```
+    Returns an unique API key for your user id , copy it for further use...
+    
 - **Delete:** `DELETE /user/delete`
+  ```sh
+    curl -X DELETE "http://127.0.0.1:8001/user/delete" -H "Authorization: Bearer [your-api-key]"
+  ```
 
 ## Endpoints
 
+### `GET /stocks/{symbol}/current`
+- **Description:** Retrieve current stock data for given company symbol.(Needs API key)
+ ```sh
+    curl -X GET "http://127.0.0.1:8001/stocks/[symbol]/current" -H "Authorization: Bearer [your-api-key]"
+  ```
+  
 ### `GET /stocks/{symbol}/historical`
 - **Description:** Retrieve historical stock data.(Needs API key)
 - **Parameters:**
@@ -74,12 +88,18 @@ A comprehensive API for real-time stock market data with predictive analytics.
   - `end_date`: Optional end date (YYYY-MM-DD)
   - `frequency`: Data frequency (daily, weekly, monthly, yearly)
   - `format`: Response format (json, csv, xml)
+  ```sh
+    curl -X GET "http://127.0.0.1:8001/stocks/[symbol]/historical?start_date=[start_date]&end_date=[end-date]&frequency=[frequency]&format=[format]" -H "Authorization: Bearer [your-api-key]"
+  ```
 
 ### `GET /predict/{symbol}`
-- **Description:** Predict future stock prices.(Needs API key)
+- **Description:** Predict future stock prices for respective company symbol.(Needs API key)
 - **Parameters:**
   - `symbol`: Stock ticker symbol
-  - `periods`: Number of days to predict
+  - `periods`: Number of days to predict (eg: 10)
+  ```sh
+    curl -X GET "http://127.0.0.1:8001/predict/[symbol]?periods=[periods]" -H "Authorization: Bearer [your-api-key]"
+  ```
 
 ## Rate Limiting
 
