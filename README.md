@@ -75,7 +75,7 @@ A comprehensive API wrapper for real-time stock market data with user authentica
 - **Delete:** `DELETE /user/delete`
   
   ```sh
-      curl -X DELETE "http://127.0.0.1:8001/user/delete" -H "Authorization: Bearer [your-api-key]"
+  curl -X DELETE "http://127.0.0.1:8001/user/delete" -H "Authorization: Bearer [your-api-key]"
   ```
 ## 🌍 Top International Companies & Their Stock Symbols
 
