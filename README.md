@@ -62,7 +62,7 @@ A comprehensive API wrapper for real-time stock market data with user authentica
 - **Register:** `POST /user/register`
   
     ```sh
-    curl -X POST "http://127.0.0.1:8001/register" -H "Content-Type: application/json" -d "{\"username\": \"[your-username]\", \"email\": \"[your-email]\", \"password\": \"[password]\"}"
+    curl -X POST "http://127.0.0.1:8001/register" -H "Content-Type: application/json" -d "{\"username\":\"[your-username]\",\"email\":\"[your-email]\",\"password\":\"[password]\"}"
     ```
   
 - **Login + API key:** `POST /user/login`
