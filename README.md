@@ -21,15 +21,23 @@ A comprehensive API for real-time stock market data with predictive analytics.
     ```
 
 2. **Create and Activate Virtual Environment:**
-
+    If Python 3.11 is your primary version,
     ```sh
     python -m venv venv
     ```
+    
+    Else install Python 3.11 and use its path to create virtual environment,
+
+    ```sh
+    [Python.exe Path] -m venv venv
+    ```
+    
+    Activate virtual environment using 
     ```sh
     venv\Scripts\activate
     ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
 
     ```sh
     pip install -r requirements.txt
