@@ -11,6 +11,8 @@ A comprehensive API wrapper for real-time stock market data with user authentica
 
 ## Installation
 
+Setup Guide : [Check out the video](https://youtu.be/ngTBSpZuw60)
+
 1. **Clone the Repository:**
 
     ```sh
