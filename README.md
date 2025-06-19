@@ -74,9 +74,9 @@ A comprehensive API wrapper for real-time stock market data with predictive anal
     
 - **Delete:** `DELETE /user/delete`
   
-      ```sh
+  ```sh
       curl -X DELETE "http://127.0.0.1:8001/user/delete" -H "Authorization: Bearer [your-api-key]"
-      ```
+  ```
 
 ## Endpoints
 
@@ -96,9 +96,9 @@ A comprehensive API wrapper for real-time stock market data with predictive anal
   - `frequency`: Data frequency (daily, weekly, monthly, yearly)
   - `format`: Response format (json, csv, xml)
     
-  ```sh
-    curl -X GET "http://127.0.0.1:8001/stocks/[symbol]/historical?start_date=[start_date]&end_date=[end-date]&frequency=[frequency]&format=[format]" -H "Authorization: Bearer [your-api-key]"
-  ```
+      ```sh
+        curl -X GET "http://127.0.0.1:8001/stocks/[symbol]/historical?start_date=[start_date]&end_date=[end-date]&frequency=[frequency]&format=[format]" -H "Authorization: Bearer [your-api-key]"
+      ```
 
 ### `GET /predict/{symbol}`
 - **Description:** Predict future stock prices for respective company symbol.(Needs API key)
@@ -106,9 +106,9 @@ A comprehensive API wrapper for real-time stock market data with predictive anal
   - `symbol`: Stock ticker symbol
   - `periods`: Number of days to predict (eg: 10)
     
-  ```sh
-    curl -X GET "http://127.0.0.1:8001/predict/[symbol]?periods=[periods]" -H "Authorization: Bearer [your-api-key]"
-  ```
+      ```sh
+          curl -X GET "http://127.0.0.1:8001/predict/[symbol]?periods=[periods]" -H "Authorization: Bearer [your-api-key]"
+      ```
 
 ## Rate Limiting
 
