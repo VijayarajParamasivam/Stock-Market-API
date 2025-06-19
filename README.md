@@ -1,7 +1,7 @@
 # Stock-Market-API
 
 ## Overview
-A comprehensive API wrapper for real-time stock market data with predictive analytics on future stock prices using Yfinance API. 
+A comprehensive API wrapper for real-time stock market data with user authentication and predictive analytics on future stock prices using Yfinance API. 
 
 ## Features
 - Real-time stock data
