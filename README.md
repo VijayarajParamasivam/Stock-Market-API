@@ -79,23 +79,23 @@ A comprehensive API wrapper for real-time stock market data with predictive anal
   ```
 ## 🌍 Top International Companies & Their Stock Symbols
 
-| Company Name               | Ticker Symbol(s) | Exchange  |
-|----------------------------|------------------|-----------|
-| Apple Inc.                 | AAPL             | NASDAQ    |
-| Microsoft Corporation      | MSFT             | NASDAQ    |
-| Alphabet Inc. (Google)     | GOOGL / GOOG     | NASDAQ    |
-| Amazon.com Inc.            | AMZN             | NASDAQ    |
-| Tesla Inc.                 | TSLA             | NASDAQ    |
-| Meta Platforms Inc.        | META             | NASDAQ    |
-| NVIDIA Corporation         | NVDA             | NASDAQ    |
-| Netflix Inc.               | NFLX             | NASDAQ    |
-| Berkshire Hathaway Inc.    | BRK.A / BRK.B    | NYSE      |
-| JPMorgan Chase & Co.       | JPM              | NYSE      |
-| Johnson & Johnson          | JNJ              | NYSE      |
-| Visa Inc.                  | V                | NYSE      |
-| Mastercard Inc.            | MA               | NYSE      |
-| Intel Corporation          | INTC             | NASDAQ    |
-| Adobe Inc.                 | ADBE             | NASDAQ    |
+        | Company Name               | Ticker Symbol(s) | Exchange  |
+        |----------------------------|------------------|-----------|
+        | Apple Inc.                 | AAPL             | NASDAQ    |
+        | Microsoft Corporation      | MSFT             | NASDAQ    |
+        | Alphabet Inc. (Google)     | GOOGL / GOOG     | NASDAQ    |
+        | Amazon.com Inc.            | AMZN             | NASDAQ    |
+        | Tesla Inc.                 | TSLA             | NASDAQ    |
+        | Meta Platforms Inc.        | META             | NASDAQ    |
+        | NVIDIA Corporation         | NVDA             | NASDAQ    |
+        | Netflix Inc.               | NFLX             | NASDAQ    |
+        | Berkshire Hathaway Inc.    | BRK.A / BRK.B    | NYSE      |
+        | JPMorgan Chase & Co.       | JPM              | NYSE      |
+        | Johnson & Johnson          | JNJ              | NYSE      |
+        | Visa Inc.                  | V                | NYSE      |
+        | Mastercard Inc.            | MA               | NYSE      |
+        | Intel Corporation          | INTC             | NASDAQ    |
+        | Adobe Inc.                 | ADBE             | NASDAQ    |
 
 
 ## Endpoints
